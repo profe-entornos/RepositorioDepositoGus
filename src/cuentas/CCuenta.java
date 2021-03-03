@@ -98,7 +98,7 @@ public class CCuenta {
     {
         if (cantidad<0)
             throw new Exception("No se puede ingresar una cantidad negativa");
-        setSaldo(getSaldo() + cantidad);
+        saldo = saldo + cantidad;
     }   
 
     public void retirar(double cantidad) throws Exception
@@ -107,7 +107,7 @@ public class CCuenta {
             throw new Exception("No se puede reitrar una cantidad negativa");
         if (estado()< cantidad) 
             throw new Exception ("No hay suficiente saldo");
-            setSaldo(getSaldo() - cantidad);
+            saldo = saldo - cantidad;
     }        
     
     
