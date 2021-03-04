@@ -9,6 +9,7 @@ package cuentas;
 /**
  *
  * @author usutarde
+ * Visto
  */
 public class CCuenta {
     /*ZONA DE ATRIBUTOS*/
